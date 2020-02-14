@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="nl" style="background-color: #3C4A69;">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Xtreem Travel Tricks</title>
+
+    <script src="https://kit.fontawesome.com/649d6a7556.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<nav class="navbar navbar-light bg-dark navbar-expand-md fixed-top">
+    <div class="navbar-toggler-left d-md-none">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+            aria-controls="navbarTogglerDemo02" ariaexpanded="false" aria-label="toggle navigation">
+
+
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+    </div>
+    <a class="navbar-brand text-white" href="index.html"> Xtreem Travel</a>
+    <div class="collapse navbar-collapse" id="navbar">
+        <nav class="nav d-flex flex-column flex-md-row w-100 justify-contentend">
+            <a href="boarders.html" class="flex-fill text-center text-light nav-link">Boarders</a>
+            <a href="tricks.html" class="flex-fill text-center text-light nav-link">Tricks</a>
+            <a href="regios.html" class="flex-fill text-center text-light nav-link">Regios</a>
+        </nav>
+    </div>
+
+</nav> 
+<body class="margetop" style="background-color: #3C4A69;">
+
+    <h2 class="trickh2">TRICKS</h2>
+    <div id="myBtnContainer" >
+        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+        <button class="btn" onclick="filterSelection('Easy')"> Easy</button>
+        <button class="btn" onclick="filterSelection('Medium')"> Medium</button>
+        <button class="btn" onclick="filterSelection('Hard')"> Hard</button>
+    </div>
+    
+
+    <div id="filtertricks" >
+        <div id="play1" class="d-one">
+                <div class="x-icon" onclick="document.getElementById('play1').style.display='none';pauseVideo();"
+                
+                ><i class="fas fa-times"></i></div>
+
+            <iframe class="player" src="https://www.youtube.com/embed/TFVWhh0Gars">
+            </iframe>
+        </div>
+        <div id="play2" class="d-one">
+                <div class="x-icon" onclick="document.getElementById('play2').style.display='none';"><i class="fas fa-times"></i></div>
+
+            <iframe class="player" src="https://www.youtube.com/embed/-noiowCyZ3I">
+            </iframe>
+        </div>
+        <div id="play3" class="d-one">
+                <div class="x-icon" onclick="document.getElementById('play3').style.display='none';"><i class="fas fa-times"></i></div>
+
+            <iframe class="player" src="https://www.youtube.com/embed/G9qlTInKbNE">
+            </iframe>
+        </div>
+        <div id="play4" class="d-one">
+                <div class="x-icon" onclick="document.getElementById('play4').style.display='none';"><i class="fas fa-times"></i></div>
+
+            <iframe class="player" src="https://www.youtube.com/embed/UNItNopAeDU">
+            </iframe>
+        </div>
+        <div id="play5" class="d-one">
+                <div class="x-icon" onclick="document.getElementById('play5').style.display='none';"><i class="fas fa-times"></i></div>
+
+            <iframe class="player" src="https://www.youtube.com/embed/JMS2PGAFMcE">
+            </iframe>
+        </div>
+        <div id="play6" class="d-one">
+                <div class="x-icon" onclick="document.getElementById('play6').style.display='none';"><i class="fas fa-times"></i></div>
+
+            <iframe class="player"  src="https://www.youtube.com/embed/YAABnJfKJ5w">
+            </iframe>
+        </div>
+        <div id="play7" class="d-one">
+                <div class="x-icon" onclick="document.getElementById('play7').style.display='none';"><i class="fas fa-times"></i></div>
+
+            <iframe class="player"  src="https://www.youtube.com/embed/6gFsbU3GWF0">
+            </iframe>
+        </div>
+        <div id="play8" class="d-one">
+                <div class="x-icon" onclick="document.getElementById('play8').style.display='none';"><i class="fas fa-times"></i></div>
+
+            <iframe class="player"  src="https://www.youtube.com/embed/xhvqu2XBvI0">
+            </iframe>
+        </div>
+        <div id="play9" class="d-one">
+                <div class="x-icon" onclick="document.getElementById('play9').style.display='none';"><i class="fas fa-times"></i></div>
+
+            <iframe class="player"  src="https://www.youtube.com/embed/arzLq-47QFA">
+            </iframe>
+        </div>
+
+        <div class="row">
+            <div class="col-4 Easy aaa" onclick="
+            document.getElementById('play1').style.display='block';
+            document.getElementById('play2').style.display='none';
+            document.getElementById('play3').style.display='none';
+            document.getElementById('play4').style.display='none';
+            document.getElementById('play5').style.display='none';
+            document.getElementById('play6').style.display='none';
+            document.getElementById('play7').style.display='none';
+            document.getElementById('play8').style.display='none';
+            document.getElementById('play9').style.display='none';">
+                <div class="content">
+                    <img src="img/img1.jpg" alt="Mountains">
+                    <h4>Ollie</h4>
+                </div>
+            </div>
+            <div class="col-4 Easy aaa" onclick="
+            document.getElementById('play1').style.display='none';
+            document.getElementById('play2').style.display='block';
+            document.getElementById('play3').style.display='none';
+            document.getElementById('play4').style.display='none';
+            document.getElementById('play5').style.display='none';
+            document.getElementById('play6').style.display='none';
+            document.getElementById('play7').style.display='none';
+            document.getElementById('play8').style.display='none';
+            document.getElementById('play9').style.display='none';">
+                <div class="content">
+                    <img src="img/img2.jpg" alt="Lights">
+                    <h4>Manuals</h4>
+                </div>
+            </div>
+            <div class="col-4 Easy aaa" onclick="
+            document.getElementById('play1').style.display='none';
+            document.getElementById('play2').style.display='none';
+            document.getElementById('play3').style.display='block';
+            document.getElementById('play4').style.display='none';
+            document.getElementById('play5').style.display='none';
+            document.getElementById('play6').style.display='none';
+            document.getElementById('play7').style.display='none';
+            document.getElementById('play8').style.display='none';
+            document.getElementById('play9').style.display='none';">
+                <div class="content">
+                    <img src="img/img3.jpg" alt="Nature">
+                    <h4>Butters</h4>
+                </div>
+            </div>
+
+            <div class="col-4 Medium aaa" onclick="
+            document.getElementById('play1').style.display='none';
+            document.getElementById('play2').style.display='none';
+            document.getElementById('play3').style.display='none';
+            document.getElementById('play4').style.display='block';
+            document.getElementById('play5').style.display='none';
+            document.getElementById('play6').style.display='none';
+            document.getElementById('play7').style.display='none';
+            document.getElementById('play8').style.display='none';
+            document.getElementById('play9').style.display='none';">
+                <div class="content">
+                    <img src="img/img4.jpg" alt="Car">
+                    <h4>Grabs</h4>
+                </div>
+            </div>
+            <div class="col-4 Medium aaa" onclick="
+            document.getElementById('play1').style.display='none';
+            document.getElementById('play2').style.display='none';
+            document.getElementById('play3').style.display='none';
+            document.getElementById('play4').style.display='none';
+            document.getElementById('play5').style.display='block';
+            document.getElementById('play6').style.display='none';
+            document.getElementById('play7').style.display='none';
+            document.getElementById('play8').style.display='none';
+            document.getElementById('play9').style.display='none';">
+                <div class="content">
+                    <img src="img/img5.jpg" alt="Car">
+                    <h4>Frontside 180s</h4>
+                </div>
+            </div>
+            <div class="col-4 Medium aaa" onclick="
+            document.getElementById('play1').style.display='none';
+            document.getElementById('play2').style.display='none';
+            document.getElementById('play3').style.display='none';
+            document.getElementById('play4').style.display='none';
+            document.getElementById('play5').style.display='none';
+            document.getElementById('play6').style.display='block';
+            document.getElementById('play7').style.display='none';
+            document.getElementById('play8').style.display='none';
+            document.getElementById('play9').style.display='none';">
+                <div class="content">
+                    <img src="img/img6.jpg" alt="Car">
+                    <h4>Backside 180s</h4>
+                </div>
+            </div>
+
+            <div class="col-4 Hard aaa" onclick="
+            document.getElementById('play1').style.display='none';
+            document.getElementById('play2').style.display='none';
+            document.getElementById('play3').style.display='none';
+            document.getElementById('play4').style.display='none';
+            document.getElementById('play5').style.display='none';
+            document.getElementById('play6').style.display='none';
+            document.getElementById('play7').style.display='block';
+            document.getElementById('play8').style.display='none';
+            document.getElementById('play9').style.display='none';">
+                <div class="content">
+                    <img src="img/img7.jpg" alt="People">
+                    <h4>360s</h4>
+                </div>
+            </div>
+            <div class="col-4 Hard aaa" onclick="
+            document.getElementById('play1').style.display='none';
+            document.getElementById('play2').style.display='none';
+            document.getElementById('play3').style.display='none';
+            document.getElementById('play4').style.display='none';
+            document.getElementById('play5').style.display='none';
+            document.getElementById('play6').style.display='none';
+            document.getElementById('play7').style.display='none';
+            document.getElementById('play8').style.display='block';
+            document.getElementById('play9').style.display='none';">
+                <div class="content">
+                    <img src="img/img8.jpg" alt="People">
+                    <h4>Frontflip</h4>
+                </div>
+            </div>
+            <div class="col-4 Hard aaa" onclick="
+            document.getElementById('play1').style.display='none';
+            document.getElementById('play2').style.display='none';
+            document.getElementById('play3').style.display='none';
+            document.getElementById('play4').style.display='none';
+            document.getElementById('play5').style.display='none';
+            document.getElementById('play6').style.display='none';
+            document.getElementById('play7').style.display='none';
+            document.getElementById('play8').style.display='none';
+            document.getElementById('play9').style.display='block';">
+                <div class="content">
+                    <img src="img/img9.jpg" alt="People">
+                    <h4>Backflip
+                    </h4>
+                </div>
+            </div>
+            <!-- END GRID -->
+        </div>
+
+
+    </div>
+    <div id="myBtnContainer">
+            <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+            <button class="btn" onclick="filterSelection('Easy')"> Easy</button>
+            <button class="btn" onclick="filterSelection('Medium')"> Hard</button>
+            <button class="btn" onclick="filterSelection('Hard')"> Medium</button>
+        </div>
+
+    <!-- Portfolio Gallery Grid -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+        
+</body>
+
+
+<div class="bottom text-center text-light mt-5">
+    Created by Jef Van Den Dorpe
+</div>
+
+<script src="js/script.js"></script>
+
+</html>

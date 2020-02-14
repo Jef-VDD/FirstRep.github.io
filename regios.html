@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="nl" style="background-color: #3C4A69;">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Xtreem Travel Tricks</title>
+
+    <script src="https://kit.fontawesome.com/649d6a7556.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+
+
+    <!-- navigatie -->
+ <nav class="navbar navbar-light bg-dark navbar-expand-md fixed-top">
+                <div class="navbar-toggler-left d-md-none">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+                        aria-controls="navbarTogglerDemo02" ariaexpanded="false" aria-label="toggle navigation">
+        
+        
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+        
+                </div>
+                <a class="navbar-brand text-white" href="index.html"> Xtreem Travel</a>
+                <div class="collapse navbar-collapse" id="navbar">
+                    <nav class="nav d-flex flex-column flex-md-row w-100 justify-contentend">
+                        <a href="boarders.html" class="flex-fill text-center text-light nav-link">Boarders</a>
+                        <a href="tricks.html" class="flex-fill text-center text-light nav-link">Tricks</a>
+                        <a href="regios.html" class="flex-fill text-center text-light nav-link">Regios</a>
+                    </nav>
+                </div>
+        
+            </nav> 
+
+    <body style="background-color: #3C4A69;">
+        <div id="regiokeuze" class="row">
+            <div id="fbregio" class="col-4">
+                <ol id="carouselector">
+                    <li onclick="
+                    document.getElementsById('carouselUtah').style.display='block';
+                    document.getElementById('carouselItaly').style.display='none';
+                    document.getElementById('carouselColorado').style.display='none';
+                    document.getElementById('carouselSwitzerland').style.display='none';
+                    document.getElementById('carouselFrance').style.display='none';">
+                        Snowbird, Utah, USA</li>
+                    <li onclick="
+                    document.getElementById('carouselUtah').style.display='none';
+                    document.getElementById('carouselItaly').style.display='block';
+                    document.getElementById('carouselColorado').style.display='none';
+                    document.getElementById('carouselSwitzerland').style.display='none';
+                    document.getElementById('carouselFrance').style.display='none';">Cervinia, Italy</li>
+                    <li onclick="
+                    document.getElementById('carouselUtah').style.display='none';
+                    document.getElementById('carouselItaly').style.display='none';
+                    document.getElementById('carouselColorado').style.display='block';
+                    document.getElementById('carouselSwitzerland').style.display='none';
+                    document.getElementById('carouselFrance').style.display='none';">Telluride, Colorado, USA</li>
+                    <li onclick="
+                    document.getElementById('carouselUtah').style.display='none';
+                    document.getElementById('carouselItaly').style.display='none';
+                    document.getElementById('carouselColorado').style.display='none';
+                    document.getElementById('carouselSwitzerland').style.display='block';
+                    document.getElementById('carouselFrance').style.display='none';">Verbier, Switzerland</li>
+                    <li onclick="
+                    document.getElementById('carouselUtah').style.display='none';
+                    document.getElementById('carouselItaly').style.display='none';
+                    document.getElementById('carouselColorado').style.display='none';
+                    document.getElementById('carouselSwitzerland').style.display='none';
+                    document.getElementById('carouselFrance').style.display='block';">Chamonix, France</li>
+                </ol>
+            </div>
+
+        <div class="col-8 px-0">
+            <div id="carouselUtah" class="carousel slid" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselUtah" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselUtah" data-slide-to="1"></li>
+                    <li data-target="#carouselUtah" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/utah1.jpg" class="d-block" alt="...">
+                        <div class="carousel-caption d-block">
+                            <h5>Utah</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/utah2.jpg" class="d-block" alt="...">
+                        <div class="carousel-caption d-block">
+                            <h5>Utah</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/utah3.jpg" class="d-block" alt="...">
+                        <div class="carousel-caption d-block">
+                            <h5>Utah map</h5>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselUtah" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselUtah" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+
+            <div id="carouselItaly" class="carousel slid  d-one" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselItaly" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselItaly" data-slide-to="1"></li>
+                    <li data-target="#carouselItaly" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/italy1.jpg" class="d-block" alt="...">
+                        <div class="carousel-caption d-block">
+                            <h5>Cervina</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/italy2.jpg" class="d-block" alt="...">
+                        <div class="carousel-caption d-block">
+                            <h5>Cervina</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/italy3.jpg" class="d-block" alt="...">
+                        <div class="carousel-caption d-block">
+                            <h5>Cervina Map</h5>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselItaly" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselItaly" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+
+            <div id="carouselColorado" class="carousel slid  d-one" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselColorado" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselColorado" data-slide-to="1"></li>
+                    <li data-target="#carouselColorado" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/colorado1.jpg" class="d-block" alt="...">
+                        <div class="carousel-caption d-block">
+                            <h5>Colorado</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/colorado2.jpg" class="d-block" alt="...">
+                        <div class="carousel-caption d-block">
+                            <h5>Colorado</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/colorado3.jpg" class="d-block" alt="...">
+                        <div class="carousel-caption d-block">
+                            <h5>Colorado map</h5>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselColorado" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselColorado" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+
+            <div id="carouselSwitzerland" class="carousel slid  d-one" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselSwitzerland" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselSwitzerland" data-slide-to="1"></li>
+                    <li data-target="#carouselSwitzerland" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/switzerland1.jpg" class="d-block" alt="...">
+                        <div class="carousel-caption d-block">
+                            <h5>Verbier</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/switzerland2.jpg" class="d-block" alt="...">
+                        <div class="carousel-caption d-block">
+                            <h5>Verbier</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/switzerland3.jpg" class="d-block" alt="...">
+                        <div class="carousel-caption d-block">
+                            <h5>Verbier map</h5>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselSwitzerland" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselSwitzerland" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+
+            <div id="carouselFrance" class="carousel slid  d-one" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselFrance" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselFrance" data-slide-to="1"></li>
+                    <li data-target="#carouselFrance" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/france1.jpg" class="d-block" alt="...">
+                        <div class="carousel-caption d-block">
+                            <h5>Chamonix</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/france2.jpg" class="d-block" alt="...">
+                        <div class="carousel-caption d-block">
+                            <h5>Chamonix</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/france3.png" class="d-block" alt="...">
+                        <div class="carousel-caption d-block">
+                            <h5>Chamonix map</h5>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselFrance" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselFrance" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="regiotxt">
+        <h2>Cervinia, Italy</h2>
+        <p>Number 2 on our 'best snowboarding resorts' list goes to Cervinia. Another one that has extensive terrain for beginners and is a little closer to home is Cervinia. Located on the border of Switzerland and Italy, near the top of the Aosta Valley, Cervinia offers miles of long gentle runs and breathtaking views of the Matterhorn. The peak, just across the border into Switzerland, is over 3,600 metres – an altitude which guarantees good quality snow.
+
+            Cervinia is much cheaper than glitzy Zermatt and if the lift linking the two ski areas is open you’ve got yourself a real bargain and more advanced terrain to explore. Intermediates will enjoy themselves here too and the decent Indian Park will occupy freestylers.  
+            
+            The downside of Cervinia is that, with the exception of the magnificent Matterhorn, it’s a bit plain Jane and advanced riders may get bored. But like we said, it’s one for beginners.    </div>
+    <div class="regiotxt">
+        <h2>Snowbird, Utah, USA</h2>
+        <p>Go to the bird for loads of diverse and easily accessible terrain. Located in Little Cottonwood Canyon, Snowbird is great for both skiing and boarding and boasts over 4700 acres of skiable slopes. It also has the most vertical terrain in Utah so you can seriously charge the steeps.
+
+            The snow at Snowbird is famed for its incredible lightness. Two years ago, the bird was blessed with more than two metres of light dry Utah powder, although, on average, annual snowfall is still an impressive 1,270cm. For the best fall-line riding, hit Mach Schnell off the Snowbird tram which has up to 45-degree steeps through open glades and bowls.
+            
+            Snowbird also offers a complimentary orientation tour of the mountain departing from the Plaza Deck every morning at 9.30am and 10.30am.</p>
+    </div>
+    </div>
+    <div class="regiotxt">
+        <h2>Telluride, Colorado, USA</h2>
+        <p>Quiet slopes, non-existent queues and a vast open space waiting to be conquered. But what really stands out about this resort is the ample terrain suitable for beginners. Telluride is something of a novice heaven offering regularly groomed runs that are wide and gentle even at the highest peaks. Beginner trails are well marked and easy-peasy to manoeuvre. And open glades provide for many scenic runs.  
+
+            That’s not to say that there isn’t plenty of challenging terrain – there is; 41 percent of the trails are classed as “advanced” or “expert”, and there are some pretty steep lines to ride including the now infamous Black Diamond Run: “The Plunge”.</p>
+    </div>
+    <div class="regiotxt">
+        <h2>Verbier, Switzerland</h2>
+        <p>The freeriding at Verbier can be summed up in one word: Superior.
+
+            Expert riders hoping to get the most out of their stay should consider hiring a guide to fully appreciate the extent of the steeps, although, for most, the variety of piste options and itineraires will more than suffice.  Located in the Four Valleys the lifts connect the ski areas of Verbier, La Tzoumaz, Nendaz, Veysonnaz and Val de Bagnes, so there is heaps to discover.
+            
+            For extreme off-piste head to the Mont-Gelé cable car where there’s a ton of unfathomably steep couloirs and open slopes from which to bomb down. Some of the best powder can be found at the Mont-Fort Glacier; ride into Tortin and you’ll discover an epic open bowl. The main intermediate ski areas, Les Attelas and Les Ruinettes, generally suffer from overcrowding so be savvy and head to Savoleyres which offers tree lined pistes and challenging reds. 
+            
+            Verbier attracts a global clientele and as would be expected from a world-class resort the après-ski rocks.</p>
+    </div>
+    <div class="regiotxt">
+        <h2>Chamonix, France</h2>
+        <p>Ploughing the snow against the incredible backdrop that is Mont Blanc on steep and rugged terrain, Chamonix is not for the faint-hearted. It is however a mecca for boarders who crave adventure and freeriding. Very well deserving of its place on our 'best snowboarding resorts' list, it offers excellent glacial runs, steep tree-runs and couloirs, plus a half-pipe and loads of natural freestyle features. The downside of a resort as popular as Chamonix are the crowds so if you prefer your slopes less trampled go after the New Year.
+
+            Chamonix is an historic ski town with charming French features. The ski areas are fairly spread out along the valley but with such inspiring scenery it won’t seem like a bother. 
+            
+            There are blue runs but these, more often than not, feel like reds. Intermediates should head towards Brevant, where the steep and varied runs also test experts. If you’re feeling really brave, head for Argentieres Grands Montets – you’ll be skiing alongside the experts.</p>
+
+    </div>
+    <div class="bottom text-center text-light">
+        Created by Jef Van Den Dorpe
+    </div>
+
+        
+        
+
+
+    <!-- Portfolio Gallery Grid -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+
+
+
+<script src="js/script.js"></script>
+
+</html>
